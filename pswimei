@@ -1,0 +1,2 @@
+$imei = “358921040994092″; //  IMEI di esempio
+$BBWhatsAppPassword = md5(strrev($imei)); // calcolo della Password (inversione dell’IMEI e generazione del MD5)
